@@ -1,102 +1,88 @@
-# 📊 Meta Ad Performance Analysis Dashboard (Power BI)
+# 📊 META Ad Performance Dashboard
 
-## 🧾 Project Overview
-The **Meta Ad Performance Dashboard** is a data-driven Power BI project that analyzes advertising campaigns running on **Facebook and Instagram**.  
-It provides complete visibility into campaign reach, engagement, conversion performance, and budget utilization — enabling better marketing decisions and ROI optimization.
-
----
-
-## 🎯 Business Objective
-The goal of this project is to help the marketing team:
-- Identify which **platform (Facebook or Instagram)** performs better.
-- Track **funnel performance** from impressions → clicks → purchases.
-- Analyze **audience engagement patterns** by gender, age, country, and time.
-- Optimize **budget allocation** for high-performing ads and ad types.
+### 🔍 Project Overview  
+This Power BI dashboard analyzes the **performance of Meta (Facebook & Instagram) advertising campaigns**, providing deep insights into the **ad funnel from impressions to purchases**.  
+It helps marketing teams understand what’s working, where users drop off, and how to optimize campaigns for better ROI.
 
 ---
 
-## 📂 Dataset Information
-This dataset simulates real-world Meta advertising data with four key tables:
-
-| Table Name | Description |
-|-------------|--------------|
-| **ad_events** | Fact table – stores all user interactions like impressions, clicks, comments, and purchases. |
-| **ads** | Contains ad details such as platform, ad type, target age, gender, and interests. |
-| **campaigns** | Holds campaign-level information like name, duration, and total budget. |
-| **users** | Includes demographic and location data of users interacting with ads. |
+### 🧩 Key Objectives
+- Evaluate ad performance using KPIs like **Impressions, Clicks, CTR, Engagement Rate, and Conversion Rate**  
+- Identify **audience behavior** across **demographics (age, gender)** and **geographic locations**  
+- Discover **best-performing ad formats** and **time slots**  
+- Provide **data-driven recommendations** to optimize ad spend and improve conversions  
 
 ---
 
-## 🧮 KPIs & Metrics
-| KPI | Definition | Formula |
-|-----|-------------|----------|
-| **Impressions** | Number of times ads were displayed | Count of event_type = Impression |
-| **Clicks** | Number of times users clicked ads | Count of event_type = Click |
-| **Engagements** | Clicks + Shares + Comments | (Clicks + Shares + Comments) |
-| **CTR (Click-Through Rate)** | % of impressions that led to clicks | (Clicks ÷ Impressions) × 100 |
-| **Engagement Rate** | % of impressions that resulted in engagement | (Engagements ÷ Impressions) × 100 |
-| **Conversion Rate** | % of clicks that led to purchases | (Purchases ÷ Clicks) × 100 |
-| **Total Budget** | Total allocated spend | SUM(campaigns.total_budget) |
+### 📈 Dashboard Insights
+
+**1️⃣ Funnel Analysis:**  
+- **Impressions:** 216K  
+- **Clicks:** 25.4K  
+- **CTR:** 11.76% → well above industry average  
+- **Engagement Rate:** 13.56%  
+- **Purchases:** 1.3K  
+- **Conversion Rate:** 5.21% (from clicks)
+
+📌 *Insight:* Strong awareness and engagement, but conversion drop indicates funnel leakage — potential landing page or targeting issues.
 
 ---
 
-## 📈 Dashboard Features
-The Power BI dashboard includes multiple interactive visuals:
+**2️⃣ Demographic Analysis:**  
+- Females (43%) engage more than males (22%)  
+- Core audience: **18–30 years** → high engagement group  
 
-1. 🧍 **Target Gender – Donut Chart**  
-   Compare engagement by male vs female audiences.
-2. 👶 **Age Group – Bar Chart**  
-   Track engagement and conversions by age group.
-3. 🌍 **Country – Map Visualization**  
-   Identify top-performing regions by metric.
-4. 📅 **Calendar Month – Heat Map**  
-   Detect seasonal trends and peak campaign months.
-5. 📊 **Weekly Trend – Stacked Column Chart**  
-   Compare ad type performance over weeks.
-6. ⏰ **Hourly Trend – Area Chart**  
-   Discover peak hours for user activity.
-7. 🎥 **Ad Type – Matrix View**  
-   Compare performance across ad formats and platforms.
+**3️⃣ Geographic Insights:**  
+- **High Volume Regions:** India, Brazil  
+- **High Value Regions:** Germany, UK  
+
+**4️⃣ Time Analysis:**  
+- Engagement peaks in **afternoon & evening hours**  
+- Spikes during **19th–21st & 25th–27th** (likely due to campaign events)
+
+**5️⃣ Ad Format Performance:**  
+- **Video Ads** and **Stories** outperform Image & Carousel ads  
+- Recommendation: Allocate more budget to video-based creatives  
 
 ---
 
-## 🔍 Key Insights
-- **High CTR (11.7%)** indicates strong creative engagement.  
-- **Engagement Rate (13.5%)** is excellent, but **conversion efficiency (5%)** suggests a drop-off post-click.  
-- **Females (43%) and users aged 18–30** show the strongest engagement.  
-- **Video and Story ads** outperform other formats.  
-- **Evening hours** drive maximum engagement.
+### 🧠 Recommendations
+1. Optimize landing pages to reduce drop-offs  
+2. Increase retargeting for engaged users who didn’t purchase  
+3. Focus on **young female audience (18–30)** in **India & Brazil**  
+4. Schedule campaigns during **peak time windows**  
+5. Invest more in **Video & Story formats**
 
 ---
 
-## 🧰 Tools & Technologies Used
-- **Power BI** – Data cleaning, modeling, DAX calculations, visualization  
-- **Excel / CSV files** – Data source  
-- **DAX Measures** – For dynamic KPI calculations  
-- **Data Modeling** – Star schema design (Fact + Dimensions)
+### 🛠️ Tools Used
+- **Power BI** – Dashboard Creation & Visualization  
+- **Excel** – Data Cleaning & Transformation  
+- **Meta Ads Dataset** – Campaign Data Analysis  
 
 ---
 
-## 📘 Learnings & Takeaways
-- Building an end-to-end marketing analytics dashboard from raw data  
-- Creating calculated columns and measures using DAX  
-- Using filters, slicers, and parameters for interactivity  
-- Presenting business insights using clear data storytelling
+### 🖼️ Dashboard Preview  
+![Meta Ad Dashboard](https://github.com/developer-arbaz/meta-ad-performance-dashboard/blob/main/Meta_Ad_Performance_Dashboard.png)
 
 ---
 
-## 📸 Dashboard Preview
-> *(Insert your Power BI Dashboard screenshot here)*  
-> Example:  
-> ![Meta Ad Dashboard]([Meta_Ad_Performance_Dashboard.png)
+### 📁 Project Files
+| File Name | Description |
+|------------|-------------|
+| `META_Ad_Performance.pbix` | Power BI dashboard file |
+| `meta_ads_dataset.csv` | Raw dataset used for analysis |
+| `README.md` | Project documentation |
 
 ---
 
-## 🧑‍💻 Developed by
+### 👨‍💻 Author
 **Arbaz Khan**  
-📍 Data Analyst | SQL | Power BI | Excel | Python  
-🔗 [LinkedIn](https://www.linkedin.com/in/arbaz-data-analyst/) | [GitHub](https://github.com/developer-arbaz) | [Portfolio](https://developer-arbaz.github.io/developerarbaz.github.io/)
+Data Analyst | Power BI | SQL | Excel | Python  
+📧 [arbazkhan21223@gmail.com](mailto:arbazkhan21223@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/arbaz-data-analyst/)  
+💻 [Portfolio](https://developer-arbaz.github.io/developerarbaz.github.io/)  
 
 ---
 
-⭐ *If you found this project insightful, don’t forget to star this repo!*
+⭐ *If you found this project insightful, don’t forget to star this repository!* ⭐
