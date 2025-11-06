@@ -63,7 +63,7 @@ It helps marketing teams understand what’s working, where users drop off, and 
 ---
 
 ### 🖼️ Dashboard Preview  
-![Meta Ad Dashboard](https://github.com/developer-arbaz/meta-ad-performance-dashboard/blob/main/Meta_Ad_Performance_Dashboard.png)
+![Meta Ad Dashboard](https://github.com/developer-arbaz/Meta-Ad-Performance-Analysis-Power-BI-Project/blob/main/Meta_Ad_Performance_Dashboard.png)
 
 ---
 
