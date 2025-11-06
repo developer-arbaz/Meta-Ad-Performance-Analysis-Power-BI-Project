@@ -88,7 +88,7 @@ The Power BI dashboard includes multiple interactive visuals:
 ## 📸 Dashboard Preview
 > *(Insert your Power BI Dashboard screenshot here)*  
 > Example:  
-> ![Meta Ad Dashboard]([./Meta Ad Performance Dashboard.png)
+> ![Meta Ad Dashboard]([Meta_Ad_Performance_Dashboard.png)
 
 ---
 
