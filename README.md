@@ -1,5 +1,5 @@
 # 📊 META Ad Performance Dashboard
-
+![Dashboard Screenshot](https://github.com/developer-arbaz/Meta-Ad-Performance-Analysis-Power-BI-Project/blob/88ef8cf9920756eaf104f70e4d9e5a82d055cc6e/Meta_Ad_Performance_Dashboard.png)
 ### 🔍 Project Overview  
 This Power BI dashboard analyzes the **performance of Meta (Facebook & Instagram) advertising campaigns**, providing deep insights into the **ad funnel from impressions to purchases**.  
 It helps marketing teams understand what’s working, where users drop off, and how to optimize campaigns for better ROI.
